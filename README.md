@@ -1,7 +1,7 @@
 # 🎬 CineStats — Film Data Analytics Hub
 
 A real-time movie data dashboard built with **Streamlit**, **Plotly**, and the **TMDb API**.  
-Created for **Arts and Big Data (SOA2005-01)** | Sungkyunkwan University | 2026 Spring
+Created by **WANG XINRU** for **Arts and Big Data** | Sungkyunkwan University | 2026 Spring
 
 ---
 
@@ -60,18 +60,6 @@ Then open the local URL shown in the terminal to view the app.
 
 ---
 
-## 📁 Project Structure
-
-```text
-CineStats/
-│
-├── app.py              # Main Streamlit application
-├── README.md           # Project documentation
-└── requirements.txt    # Required Python packages
-```
-
----
-
 ## 🎯 Project Purpose
 
 This project was created for the **Arts and Big Data** course.
@@ -82,21 +70,12 @@ Through this project, I wanted to demonstrate that data analysis is not only use
 
 ---
 
-## 🔮 Future Improvements
-
-- Add actor analysis
-- Add country and language-based film analysis
-- Add favorite movie list feature
-- Compare multiple movies side by side
-- Add movie recommendation features
-- Improve the visual design with a more cinematic interface
-- Deploy the app publicly using Streamlit Community Cloud
-
----
-
 ## 🙋‍♀️ Author
 
-Created as a Streamlit web app project for **Arts and Big Data (SOA2005-01)**.
+**WANG XINRU**
+
+Created as a Streamlit web app project for **Arts and Big Data **.
 
 **CineStats — Film Data Analytics Hub**  
 A project that connects film, data, and visual storytelling.
+
