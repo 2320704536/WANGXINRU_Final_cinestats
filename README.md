@@ -33,3 +33,19 @@ streamlit run app.py
 ```
 
 ## 📁 Project Structure
+cinestats/
+│
+├── app.py          # Main Streamlit application
+└── README.md       # Project documentation
+
+## 🔑 API
+
+This project uses the [TMDb API](https://www.themoviedb.org/documentation/api).
+Data includes movie ratings, genres, popularity scores, and director information.
+
+## 👤 Author
+
+- **Name:** Your Name
+- **Student ID:** Your ID
+- **Course:** Arts and Big Data (SOA2005-01)
+- **Professor:** Prof. Jahwan Koo
