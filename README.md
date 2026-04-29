@@ -1,29 +1,28 @@
 # 🎬 CineStats — Film Data Analytics Hub
 
-> A real-time movie data dashboard built with **Streamlit**, **Plotly**, and the **TMDb API**.  
-> Created for **Arts and Big Data (SOA2005-01)** | Sungkyunkwan University | 2026 Spring
+A real-time movie data dashboard built with **Streamlit**, **Plotly**, and the **TMDb API**.  
+Created for **Arts and Big Data (SOA2005-01)** | Sungkyunkwan University | 2026 Spring
 
 ---
 
 ## 📌 Project Overview
 
-**CineStats** is an interactive film data analytics web app that helps users explore movie trends through real-time data.
+**CineStats** is an interactive film data analytics web app that explores movie information through real-time data and visual charts.
 
-The app collects movie information from the **TMDb API** and presents it through charts, filters, director analysis, movie posters, and search tools.  
-It is designed as a personal **film data hub**, combining movie culture with data visualization.
+The app collects movie data from **The Movie Database (TMDb)** and presents it in a clear dashboard format. Users can explore popular movies, top-rated films, genre patterns, release year trends, director performance, and individual movie search results.
 
-Instead of simply listing films, CineStats turns movie information into a visual dashboard where users can compare popularity, ratings, genres, release years, and director performance.
+This project connects film culture with data visualization. Instead of showing movie information only as a list, CineStats helps users understand patterns in ratings, popularity, genres, and directors through interactive charts and filters.
 
 ---
 
 ## 📊 Features
 
-- **Analytics Dashboard** — Genre distribution, rating trends, release year analysis, and rating vs popularity visualization  
-- **Director Analysis** — Top directors by average rating, movie count, and revenue comparison  
-- **Popular Movies** — Browse currently popular films and filter by genre or minimum rating  
-- **Top Rated Movies** — View all-time top-rated films with posters, genres, votes, and summaries  
-- **Movie Search** — Search any movie by title and display detailed results  
-- **CSV Export** — Download movie and director data for further analysis  
+- **Analytics Dashboard** — Genre distribution, rating trends, release year analysis, and rating vs popularity visualization
+- **Director Analysis** — Top directors by average rating, movie count, and revenue vs rating comparison
+- **Popular Movies** — Browse currently popular films and filter by genre or minimum rating
+- **Top Rated Movies** — View all-time best-rated films with posters, genres, votes, and summaries
+- **Movie Search** — Search any movie by title and view rating, genre, poster, votes, and overview
+- **CSV Export** — Download movie and director data for further analysis
 
 ---
 
@@ -33,115 +32,71 @@ Instead of simply listing films, CineStats turns movie information into a visual
 |---|---|
 | **Streamlit** | Web app framework |
 | **Plotly** | Interactive charts and data visualization |
-| **Pandas** | Data cleaning and table management |
+| **Pandas** | Data processing and table management |
 | **TMDb API** | Real-time movie data source |
 | **Google Colab** | Development and testing environment |
 | **Python** | Main programming language |
 
 ---
 
-## 🧩 Main Sections
-
-### 📊 Analytics
-
-The analytics page shows an overview of the movie dataset using key metrics and visual charts.
-
-It includes:
-
-- Number of popular movies
-- Number of top-rated movies
-- Number of genres
-- Average rating of top-rated films
-- Genre distribution pie chart
-- Top 10 rated movie bar chart
-- Movies by release year line chart
-- Average rating by genre chart
-- Rating vs popularity scatter plot
-
----
-
-### 🎬 Director Analysis
-
-The director analysis section focuses on directors from the top-rated movie dataset.
-
-It includes:
-
-- Number of directors analyzed
-- Highest average rating
-- Most prolific director
-- Top directors by average rating
-- Directors by number of movies
-- Rating vs total revenue comparison
-- Search function for director details
-- CSV export for director data
-
----
-
-### 🔥 Popular Movies
-
-This section displays currently popular movies from TMDb.
-
-Users can:
-
-- Filter movies by genre
-- Set a minimum rating
-- View movie posters
-- Read short overviews
-- Check popularity scores and vote counts
-
----
-
-### ⭐ Top Rated Movies
-
-This section displays highly rated movies of all time.
-
-Users can:
-
-- Filter movies by release year
-- View movie posters
-- Check ratings and vote counts
-- Read movie summaries
-
----
-
-### 🔍 Movie Search
-
-The search page allows users to search for any movie title.
-
-For each result, the app displays:
-
-- Movie title
-- Release year
-- Rating
-- Genre
-- Vote count
-- Poster image
-- Overview
-
----
-
 ## 📊 Data Source
 
-The data used in this project comes from **The Movie Database (TMDb) API**.
+The movie data used in this project comes from **The Movie Database (TMDb) API**.
 
-The app retrieves:
-
-- Movie titles
-- Release years
-- Ratings
-- Vote counts
-- Popularity scores
-- Genres
-- Posters
-- Movie overviews
-- Director information
-- Revenue data
+The app retrieves information such as movie titles, release years, ratings, vote counts, popularity scores, genres, posters, overviews, director information, and revenue data.
 
 ---
 
 ## 🚀 How to Run
 
-### 1. Install required libraries
+Install the required libraries and run the Streamlit app:
 
 ```bash
 pip install streamlit pandas plotly requests
+streamlit run app.py
+```
+
+Then open the local URL shown in the terminal to view the app.
+
+---
+
+## 📁 Project Structure
+
+```text
+CineStats/
+│
+├── app.py              # Main Streamlit application
+├── README.md           # Project documentation
+└── requirements.txt    # Required Python packages
+```
+
+---
+
+## 🎯 Project Purpose
+
+This project was created for the **Arts and Big Data** course.
+
+The main purpose of CineStats is to show how data can be used to understand film and media culture. By combining real-time movie data with interactive visualizations, the app allows users to explore relationships between popularity, ratings, genres, release years, and director performance.
+
+Through this project, I wanted to demonstrate that data analysis is not only useful in business or science, but can also be applied to creative fields such as film. CineStats presents film data in a more accessible and visual way, making it easier for users to discover patterns behind movies and audience preferences.
+
+---
+
+## 🔮 Future Improvements
+
+- Add actor analysis
+- Add country and language-based film analysis
+- Add favorite movie list feature
+- Compare multiple movies side by side
+- Add movie recommendation features
+- Improve the visual design with a more cinematic interface
+- Deploy the app publicly using Streamlit Community Cloud
+
+---
+
+## 🙋‍♀️ Author
+
+Created as a Streamlit web app project for **Arts and Big Data (SOA2005-01)**.
+
+**CineStats — Film Data Analytics Hub**  
+A project that connects film, data, and visual storytelling.
