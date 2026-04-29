@@ -1,2 +1,35 @@
-# cinestats
-🎬 A film data analytics dashboard powered by TMDb API
+# 🎬 CineStats — Film Data Analytics Hub
+
+A real-time movie data dashboard built with Streamlit and TMDb API.
+Created for Arts and Big Data (SOA2005-01) | Sungkyunkwan University | 2026 Spring
+
+## 📊 Features
+
+- **Analytics Dashboard** — Genre distribution, rating trends, year analysis
+- **Director Analysis** — Top directors by avg rating, movie count, revenue vs rating
+- **Popular Movies** — Filter by genre and minimum rating
+- **Top Rated Movies** — All-time best films with poster display
+- **Search** — Search any movie by title
+
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| Streamlit | Web app framework |
+| Plotly | Interactive charts |
+| TMDb API | Real-time movie data |
+| Google Colab | Development environment |
+
+## 🚀 How to Run
+
+### Step 1: Install dependencies
+```bash
+pip install streamlit plotly requests
+```
+
+### Step 2: Run the app
+```bash
+streamlit run app.py
+```
+
+## 📁 Project Structure
