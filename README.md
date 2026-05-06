@@ -17,12 +17,13 @@ This project connects film culture with data visualization. Instead of showing m
 
 ## 📊 Features
 
-- **Analytics Dashboard** — Genre distribution, rating trends, release year analysis, and rating vs popularity visualization
-- **Director Analysis** — Top directors by average rating, movie count, and revenue vs rating comparison
-- **Popular Movies** — Browse currently popular films and filter by genre or minimum rating
-- **Top Rated Movies** — View all-time best-rated films with posters, genres, votes, and summaries
-- **Movie Search** — Search any movie by title and view rating, genre, poster, votes, and overview
-- **CSV Export** — Download movie and director data for further analysis
+- **📊 Analytics Dashboard** — Genre distribution pie chart, top 10 rated movies bar chart, release year trend line, average rating by category, and rating vs popularity scatter plot
+- **📋 Interactive Data Tables** — Filterable and sortable movie tables with genre, year, and rating filters across multiple pages
+- **🎬 Director Analysis** — Top 15 directors by average rating, most prolific directors chart, revenue vs rating scatter plot, director detail search with profile photo, and director data table with filters
+- **🔥 Popular Movies** — Browse currently trending films filtered by genre and minimum rating, with poster, overview, and vote count
+- **⭐ Top Rated Movies** — All-time best-rated films with dual filters (year + genre), full data table view, and movie cards with posters
+- **🔍 Movie Search** — Search any movie title in real time, view results in both table format and detailed movie cards
+- **📤 CSV Export** — Download movie data and director data as CSV files for further analysis
 
 ---
 
@@ -43,7 +44,18 @@ This project connects film culture with data visualization. Instead of showing m
 
 The movie data used in this project comes from **The Movie Database (TMDb) API**.
 
-The app retrieves information such as movie titles, release years, ratings, vote counts, popularity scores, genres, posters, overviews, director information, and revenue data.
+The app retrieves the following information in real time:
+
+| Data Type | Details |
+|-----------|---------|
+| Movie Info | Title, release year, overview, poster |
+| Ratings | TMDb user rating and vote count |
+| Popularity | TMDb popularity score |
+| Genres | Up to 3 genres per movie |
+| Director Info | Name, profile photo, filmography |
+| Revenue | Box office revenue per film |
+
+Data is fetched live on each session — no static dataset is used.
 
 ---
 
