@@ -60,6 +60,26 @@ Then open the local URL shown in the terminal to view the app.
 
 ---
 
+## 📦 Requirements
+
+Create a `requirements.txt` file with the following libraries:
+
+```txt
+streamlit
+pandas
+plotly
+requests
+```
+
+---
+
+## 📸 Screenshot
+
+<img width="1466" height="567" alt="截屏2026-05-06 下午12 56 25" src="https://github.com/user-attachments/assets/cfed9b55-1802-46fa-82a6-4653ecfd51da" />
+
+---
+
+
 ## 🎯 Project Purpose
 
 This project was created for the **Arts and Big Data** course.
@@ -79,3 +99,9 @@ Created as a Streamlit web app project for **Arts and Big Data **.
 **CineStats — Film Data Analytics Hub**  
 A project that connects film, data, and visual storytelling.
 
+---
+
+## 🙏 Acknowledgement
+
+This project uses movie data provided by TMDb API.  
+This project is created for the Arts and Big Data final project.
