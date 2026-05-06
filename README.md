@@ -32,8 +32,6 @@ This project connects film culture with data visualization. Instead of showing m
 | Tool | Purpose |
 |---|---|
 | **Streamlit** | Web app framework |
-| **Plotly** | Interactive charts and data visualization |
-| **Pandas** | Data processing and table management |
 | **TMDb API** | Real-time movie data source |
 | **Google Colab** | Development and testing environment |
 | **Python** | Main programming language |
