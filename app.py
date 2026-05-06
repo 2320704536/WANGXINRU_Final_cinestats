@@ -15,7 +15,7 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 # API Settings
 # ─────────────────────────────────────────────
-API_KEY = st.secrets["TMDB_API_KEY"]
+API_KEY = st.secrets.get("TMDB_API_KEY", "75b267957348ed042d5c3d6f2d66b0a3")
 BASE_URL = "https://api.themoviedb.org/3"
 
 # ─────────────────────────────────────────────
